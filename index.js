@@ -5,6 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
   for (i = 0; i < 3; i++) {
     theBand.push(musicians[i] + ' plays ' + instruments[i])
   }
+  return theBand;
 }
 
 function johnLennonFacts(facts) {
